@@ -1,33 +1,39 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>LUWEB – OpenSeadragon Viewer</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      html,body{margin:0;background:#000;height:100%}
-      #openseadragon{width:100%;height:100%}
-    </style>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.0.0/openseadragon.min.js"></script>
-  </head>
-  <body>
-    <div id="openseadragon"></div>
+<head>
+  <title>LUWEB – OpenSeadragon</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    html,body{margin:0;height:100%;background:#000}
+    #openseadragon{width:100%;height:100%}
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.0.0/openseadragon.min.js"></script>
+</head>
+<body>
+  <div id="openseadragon"></div>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        // ── destroy any previous viewer to prevent overlaps
-        if (window.osdViewer) window.osdViewer.destroy();
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const container = document.getElementById("openseadragon");
 
-        // ── create a single viewer instance
-        window.osdViewer = OpenSeadragon({
-          id: "openseadragon",
-          prefixUrl:
-            "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.0.0/images/",
-          tileSources: "./PA300052_dzi.dzi",
-          showNavigator: true,
-          defaultZoomLevel: 0
-        });
+      /* 1 ▸ remove every previous canvas / overlay */
+      while (container.firstChild) container.removeChild(container.firstChild);
+
+      /* 2 ▸ destroy previous viewer, if any */
+      if (window.osdViewer && window.osdViewer.destroy)
+        window.osdViewer.destroy();
+
+      /* 3 ▸ create exactly one viewer */
+      window.osdViewer = OpenSeadragon({
+        id: "openseadragon",
+        prefixUrl:
+          "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.0.0/images/",
+        tileSources: "./PA300052_dzi.dzi",
+        showNavigator: true,
+        defaultZoomLevel: 0
       });
-    </script>
-  </body>
+    });
+  </script>
+</body>
 </html>

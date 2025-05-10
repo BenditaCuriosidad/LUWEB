@@ -1,36 +1,33 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>LUWEB - OpenSeadragon Viewer</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <title>LUWEB – OpenSeadragon Viewer</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
-        body {
-            margin: 0;
-            background-color: #000;
-        }
-        #openseadragon {
-            width: 100vw;
-            height: 100vh;
-        }
+      html,body{margin:0;background:#000;height:100%}
+      #openseadragon{width:100%;height:100%}
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.0.0/openseadragon.min.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <div id="openseadragon"></div>
 
     <script>
-        OpenSeadragon({
-            id: "openseadragon",
-            prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.0.0/images/",
-            tileSources: "./PA300052_dzi.dzi", 
-            showNavigator: true,
-            defaultZoomLevel: 0,
-            minZoomLevel: 0,
-            maxZoomLevel: 10,
-            showZoomControl: true,
-            showFullPageControl: true
+      document.addEventListener("DOMContentLoaded", () => {
+        // ── destroy any previous viewer to prevent overlaps
+        if (window.osdViewer) window.osdViewer.destroy();
+
+        // ── create a single viewer instance
+        window.osdViewer = OpenSeadragon({
+          id: "openseadragon",
+          prefixUrl:
+            "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.0.0/images/",
+          tileSources: "./PA300052_dzi.dzi",
+          showNavigator: true,
+          defaultZoomLevel: 0
         });
+      });
     </script>
-</body>
+  </body>
 </html>

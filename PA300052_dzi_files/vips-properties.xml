@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<image xmlns="http://www.vips.ecs.soton.ac.uk//dzsave" date="2025-05-10T16:38:09.208470+02" version="8.16.1">
+<image xmlns="http://www.vips.ecs.soton.ac.uk//dzsave" date="2025-05-10T22:46:44.393446+02" version="8.16.1">
   <properties>
     <property>
       <name>width</name>
@@ -35,15 +35,15 @@
     </property>
     <property>
       <name>magick-date:create</name>
-      <value type="VipsRefString">2025-05-10T13:37:27+00:00</value>
+      <value type="VipsRefString">2025-05-10T20:18:41+00:00</value>
     </property>
     <property>
       <name>magick-date:modify</name>
-      <value type="VipsRefString">2025-05-10T13:37:27+00:00</value>
+      <value type="VipsRefString">2025-05-10T20:18:40+00:00</value>
     </property>
     <property>
       <name>magick-date:timestamp</name>
-      <value type="VipsRefString">2025-05-10T14:28:45+00:00</value>
+      <value type="VipsRefString">2025-05-10T20:37:41+00:00</value>
     </property>
     <property>
       <name>magick-dc:format</name>
@@ -55,7 +55,7 @@
     </property>
     <property>
       <name>magick-exif:DateTime</name>
-      <value type="VipsRefString">2025:05:10 15:36:44</value>
+      <value type="VipsRefString">2025:05:10 22:18:25</value>
     </property>
     <property>
       <name>magick-exif:ExifOffset</name>
@@ -143,11 +143,11 @@
     </property>
     <property>
       <name>magick-xmp:MetadataDate</name>
-      <value type="VipsRefString">2025-05-10T15:36:44+02:00</value>
+      <value type="VipsRefString">2025-05-10T22:18:25+02:00</value>
     </property>
     <property>
       <name>magick-xmp:ModifyDate</name>
-      <value type="VipsRefString">2025-05-10T15:36:44+02:00</value>
+      <value type="VipsRefString">2025-05-10T22:18:25+02:00</value>
     </property>
     <property>
       <name>magick-xmpMM:DerivedFrom</name>
@@ -159,7 +159,7 @@
     </property>
     <property>
       <name>magick-xmpMM:InstanceID</name>
-      <value type="VipsRefString">xmp.iid:10eec6bc-9501-47ee-b8b1-a12f36c04255</value>
+      <value type="VipsRefString">xmp.iid:be63af82-304e-42dc-9762-a56e2a1cff6f</value>
     </property>
     <property>
       <name>magick-xmpMM:OriginalDocumentID</name>
@@ -191,7 +191,7 @@
     </property>
     <property>
       <name>exif-ifd0-DateTime</name>
-      <value type="VipsRefString">2025:05:10 15:36:44 (2025:05:10 15:36:44, ASCII, 20 components, 20 bytes)</value>
+      <value type="VipsRefString">2025:05:10 22:18:25 (2025:05:10 22:18:25, ASCII, 20 components, 20 bytes)</value>
     </property>
     <property>
       <name>exif-ifd2-ColorSpace</name>

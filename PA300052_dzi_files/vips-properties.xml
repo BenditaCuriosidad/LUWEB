@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<image xmlns="http://www.vips.ecs.soton.ac.uk//dzsave" date="2025-05-10T22:46:44.393446+02" version="8.16.1">
+<image xmlns="http://www.vips.ecs.soton.ac.uk//dzsave" date="2025-05-10T22:53:05.622996+02" version="8.16.1">
   <properties>
     <property>
       <name>width</name>
-      <value type="gint">82677</value>
+      <value type="gint">59055</value>
     </property>
     <property>
       <name>height</name>
-      <value type="gint">33887</value>
+      <value type="gint">24205</value>
     </property>
     <property>
       <name>bands</name>
@@ -23,211 +23,31 @@
     </property>
     <property>
       <name>xres</name>
-      <value type="gdouble">11.811023622047244</value>
+      <value type="gdouble">5.9055118560791016</value>
     </property>
     <property>
       <name>yres</name>
-      <value type="gdouble">11.811023622047244</value>
+      <value type="gdouble">5.9055118560791016</value>
     </property>
     <property>
       <name>vips-loader</name>
-      <value type="VipsRefString">magickload</value>
-    </property>
-    <property>
-      <name>magick-date:create</name>
-      <value type="VipsRefString">2025-05-10T20:18:41+00:00</value>
-    </property>
-    <property>
-      <name>magick-date:modify</name>
-      <value type="VipsRefString">2025-05-10T20:18:40+00:00</value>
-    </property>
-    <property>
-      <name>magick-date:timestamp</name>
-      <value type="VipsRefString">2025-05-10T20:37:41+00:00</value>
-    </property>
-    <property>
-      <name>magick-dc:format</name>
-      <value type="VipsRefString">application/vnd.adobe.photoshop</value>
-    </property>
-    <property>
-      <name>magick-exif:ColorSpace</name>
-      <value type="VipsRefString">1</value>
-    </property>
-    <property>
-      <name>magick-exif:DateTime</name>
-      <value type="VipsRefString">2025:05:10 22:18:25</value>
-    </property>
-    <property>
-      <name>magick-exif:ExifOffset</name>
-      <value type="VipsRefString">168</value>
-    </property>
-    <property>
-      <name>magick-exif:PixelXDimension</name>
-      <value type="VipsRefString">82677</value>
-    </property>
-    <property>
-      <name>magick-exif:PixelYDimension</name>
-      <value type="VipsRefString">33887</value>
-    </property>
-    <property>
-      <name>magick-exif:Software</name>
-      <value type="VipsRefString">Adobe Photoshop 26.4 (Macintosh)</value>
-    </property>
-    <property>
-      <name>magick-exif:thumbnail:Compression</name>
-      <value type="VipsRefString">6</value>
-    </property>
-    <property>
-      <name>magick-exif:thumbnail:JPEGInterchangeFormat</name>
-      <value type="VipsRefString">306</value>
-    </property>
-    <property>
-      <name>magick-exif:thumbnail:JPEGInterchangeFormatLength</name>
-      <value type="VipsRefString">0</value>
-    </property>
-    <property>
-      <name>magick-exif:thumbnail:ResolutionUnit</name>
-      <value type="VipsRefString">2</value>
-    </property>
-    <property>
-      <name>magick-exif:thumbnail:XResolution</name>
-      <value type="VipsRefString">72/1</value>
-    </property>
-    <property>
-      <name>magick-exif:thumbnail:YResolution</name>
-      <value type="VipsRefString">72/1</value>
-    </property>
-    <property>
-      <name>magick-icc:copyright</name>
-      <value type="VipsRefString">Copyright (c) 1998 Hewlett-Packard Company</value>
-    </property>
-    <property>
-      <name>magick-icc:description</name>
-      <value type="VipsRefString">sRGB IEC61966-2.1</value>
-    </property>
-    <property>
-      <name>magick-icc:manufacturer</name>
-      <value type="VipsRefString">IEC http://www.iec.ch</value>
-    </property>
-    <property>
-      <name>magick-icc:model</name>
-      <value type="VipsRefString">IEC 61966-2.1 Default RGB colour space - sRGB</value>
-    </property>
-    <property>
-      <name>magick-pdf:Producer</name>
-      <value type="VipsRefString">macOS Version 10.14.6 (Build 18G9323) Quartz PDFContext</value>
-    </property>
-    <property>
-      <name>magick-photoshop:ColorMode</name>
-      <value type="VipsRefString">3</value>
-    </property>
-    <property>
-      <name>magick-photoshop:ICCProfile</name>
-      <value type="VipsRefString">sRGB IEC61966-2.1</value>
-    </property>
-    <property>
-      <name>magick-tiff:XResolution</name>
-      <value type="VipsRefString">   300</value>
-    </property>
-    <property>
-      <name>magick-tiff:YResolution</name>
-      <value type="VipsRefString">   300</value>
-    </property>
-    <property>
-      <name>magick-xmp:CreateDate</name>
-      <value type="VipsRefString">2022-10-09T23:26:39Z</value>
-    </property>
-    <property>
-      <name>magick-xmp:CreatorTool</name>
-      <value type="VipsRefString">Keynote</value>
-    </property>
-    <property>
-      <name>magick-xmp:MetadataDate</name>
-      <value type="VipsRefString">2025-05-10T22:18:25+02:00</value>
-    </property>
-    <property>
-      <name>magick-xmp:ModifyDate</name>
-      <value type="VipsRefString">2025-05-10T22:18:25+02:00</value>
-    </property>
-    <property>
-      <name>magick-xmpMM:DerivedFrom</name>
-      <value type="VipsRefString">xmp.did:5b94d0d0-9491-44a7-bb0f-2854137799eb</value>
-    </property>
-    <property>
-      <name>magick-xmpMM:DocumentID</name>
-      <value type="VipsRefString">adobe:docid:photoshop:af489db4-da7c-2948-a396-6342fdf09399</value>
-    </property>
-    <property>
-      <name>magick-xmpMM:InstanceID</name>
-      <value type="VipsRefString">xmp.iid:be63af82-304e-42dc-9762-a56e2a1cff6f</value>
-    </property>
-    <property>
-      <name>magick-xmpMM:OriginalDocumentID</name>
-      <value type="VipsRefString">xmp.did:5b94d0d0-9491-44a7-bb0f-2854137799eb</value>
-    </property>
-    <property>
-      <name>resolution-unit</name>
-      <value type="VipsRefString">in</value>
-    </property>
-    <property>
-      <name>exif-ifd0-Orientation</name>
-      <value type="VipsRefString">1 (Top-left, Short, 1 components, 2 bytes)</value>
-    </property>
-    <property>
-      <name>exif-ifd0-XResolution</name>
-      <value type="VipsRefString">3000000/10000 (300.0000, Rational, 1 components, 8 bytes)</value>
-    </property>
-    <property>
-      <name>exif-ifd0-YResolution</name>
-      <value type="VipsRefString">3000000/10000 (300.0000, Rational, 1 components, 8 bytes)</value>
-    </property>
-    <property>
-      <name>exif-ifd0-ResolutionUnit</name>
-      <value type="VipsRefString">2 (Inch, Short, 1 components, 2 bytes)</value>
-    </property>
-    <property>
-      <name>exif-ifd0-Software</name>
-      <value type="VipsRefString">Adobe Photoshop 26.4 (Macintosh) (Adobe Photoshop 26.4 (Macintosh), ASCII, 33 components, 33 bytes)</value>
-    </property>
-    <property>
-      <name>exif-ifd0-DateTime</name>
-      <value type="VipsRefString">2025:05:10 22:18:25 (2025:05:10 22:18:25, ASCII, 20 components, 20 bytes)</value>
-    </property>
-    <property>
-      <name>exif-ifd2-ColorSpace</name>
-      <value type="VipsRefString">1 (sRGB, Short, 1 components, 2 bytes)</value>
-    </property>
-    <property>
-      <name>exif-ifd2-PixelXDimension</name>
-      <value type="VipsRefString">82677 (82677, Long, 1 components, 4 bytes)</value>
-    </property>
-    <property>
-      <name>exif-ifd2-PixelYDimension</name>
-      <value type="VipsRefString">33887 (33887, Long, 1 components, 4 bytes)</value>
-    </property>
-    <property>
-      <name>exif-ifd2-ExifVersion</name>
-      <value type="VipsRefString">Exif Version 2.1 (Exif Version 2.1, Undefined, 4 components, 4 bytes)</value>
-    </property>
-    <property>
-      <name>exif-ifd2-FlashpixVersion</name>
-      <value type="VipsRefString">FlashPix Version 1.0 (FlashPix Version 1.0, Undefined, 4 components, 4 bytes)</value>
-    </property>
-    <property>
-      <name>magick-format</name>
-      <value type="VipsRefString">PSD</value>
+      <value type="VipsRefString">tiffload</value>
     </property>
     <property>
       <name>n-pages</name>
       <value type="gint">1</value>
     </property>
     <property>
-      <name>orientation</name>
-      <value type="gint">1</value>
+      <name>resolution-unit</name>
+      <value type="VipsRefString">in</value>
     </property>
     <property>
       <name>bits-per-sample</name>
       <value type="gint">8</value>
+    </property>
+    <property>
+      <name>orientation</name>
+      <value type="gint">1</value>
     </property>
     <property>
       <name>vips-sequential</name>

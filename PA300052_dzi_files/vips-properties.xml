@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<image xmlns="http://www.vips.ecs.soton.ac.uk//dzsave" date="2025-05-11T12:38:29.080052+02" version="8.16.1">
+<image xmlns="http://www.vips.ecs.soton.ac.uk//dzsave" date="2025-05-11T12:58:33.618917+02" version="8.16.1">
   <properties>
     <property>
       <name>width</name>
-      <value type="gint">59055</value>
+      <value type="gint">56693</value>
     </property>
     <property>
       <name>height</name>
-      <value type="gint">24205</value>
+      <value type="gint">23237</value>
     </property>
     <property>
       <name>bands</name>
@@ -23,11 +23,11 @@
     </property>
     <property>
       <name>xres</name>
-      <value type="gdouble">5.9055118560791016</value>
+      <value type="gdouble">2.8346457481384277</value>
     </property>
     <property>
       <name>yres</name>
-      <value type="gdouble">5.9055118560791016</value>
+      <value type="gdouble">2.8346457481384277</value>
     </property>
     <property>
       <name>vips-loader</name>
